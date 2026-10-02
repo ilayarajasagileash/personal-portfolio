@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact - Shakileash | Personal Portfolio</title>
+
+    <meta name="description"
+          content="Contact Shakileash through the accessible portfolio contact form.">
+    <meta name="author" content="Shakileash">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+
+    <header>
+        <h1>Shakileash</h1>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li>
+                    <a href="contact.html" aria-current="page">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Me</h2>
+
+            <p>
+                If you would like to get in touch, please use the form below.
+            </p>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="name">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                        required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required>
+                </div>
+
+                <div>
+                    <label for="subject">Subject</label>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        required>
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+        <aside aria-labelledby="contact-info-heading">
+            <h2 id="contact-info-heading">Other Contact Information</h2>
+
+            <p>
+                You can contact me for internship opportunities,
+                projects, and professional discussions.
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:your-email@example.com">
+                    your-email@example.com
+                </a>
+            </p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 . All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
